@@ -1,6 +1,6 @@
 function checkAnswer() {
     const correctAnswer = "4";
-const idValue = document.querySelector(name= 'quiz');
+const idValue = document.querySelector('input[name="quiz"]:checked');
 const userAnswer = document.getElementById(feedback).value;}
 if (userAnswer === correctAnswer) {
     idValue.textContent = "Correct! Well done.";}
