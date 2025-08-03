@@ -7,4 +7,4 @@ if (userAnswer === correctAnswer) {
 else {
     idValue.textContent = "That's incorrect. Try again!";}
 const submitanswer = document.getElementById("submit-answer");
-submitanswer.addEventListener (click, checkAnswer);
+submitanswer.addEventListener("click", checkAnswer) 
